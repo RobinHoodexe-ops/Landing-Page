@@ -1,0 +1,69 @@
+body{
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.header{
+    display: flex;
+    background-color: #1F2937;
+    justify-content: space-around;
+    color: white;
+    height: 70px;
+    width: auto;
+}
+
+.links{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 24px;
+    color: white;
+    gap: 20px;
+}
+ a{
+    color: azure;
+    font-size: 20px;
+    text-decoration: none;
+ }
+
+ .titleContainer{
+    display: flex;
+    flex-flow: row;
+    align-items: space-evenly;
+    
+    background-color: #1F2937;
+    padding-left: 310px;
+    padding-right: 0px;
+    color: white;
+    padding-bottom: 170px;
+    margin-right: 0px;
+ }
+
+
+ .title{
+    font-size: 45px;
+    text-wrap: wrap;    
+    width: 400px;
+    height: 50px;
+ }
+ .lorem{
+    font-size: 21px;
+    width: 400px;  
+ }
+
+ .image{
+    display: flex;
+    height: 250px;
+    width: 350px;
+    padding-top: 40px;
+
+ }
+
+ .sectionOne{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+ }
+
+footer{
+    display: flex;
+}
