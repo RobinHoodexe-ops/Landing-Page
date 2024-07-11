@@ -34,9 +34,10 @@ body{
     padding-left: 310px;
     padding-right: 0px;
     color: white;
-    padding-bottom: 170px;
+    padding-bottom: 140px;
     margin-right: 0px;
- }
+    
+}
 
 
  .title{
@@ -44,7 +45,17 @@ body{
     text-wrap: wrap;    
     width: 400px;
     height: 50px;
+    margin-top: 8%;
+    margin-right: 300px;
  }
+.titleTwo{
+    display: flex;
+    justify-content: center;
+    margin: 35px 20px;
+    font-size: 36px;
+    font-weight: bolder;
+}
+
  .lorem{
     font-size: 21px;
     width: 400px;  
@@ -52,10 +63,10 @@ body{
 
  .image{
     display: flex;
-    height: 250px;
-    width: 350px;
+    height: 450px;
+    width: 550px;
     padding-top: 40px;
-
+    margin-top: 4%;
  }
 
  .sectionOne{
@@ -63,6 +74,65 @@ body{
     flex-direction: column;
     align-items: end;
  }
+
+ .btn{
+    background-color: #3882F6;
+    font-size: 24px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 4px 24px;
+    
+ }
+
+ .squareContainer{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    
+ }
+
+.squaredraw{
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+    width: 120px;
+    padding: 10px;
+    border: 0;
+    border-top: 10px solid black;
+    border-left: 10px solid black;
+    border-bottom: 10px solid black;
+    border-right: 10px solid black;
+    border-radius: 10%;
+    
+}
+
+.sectionTwoPOne{
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    width: 195px;
+}
+.sectionTwoPTwo{
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    width: 195px;
+}
+
+.sectionTwoPThree{
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    width: 195px;
+}
+
+.sectionTwoPFour{
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    width: 195px;
+}
 
 footer{
     display: flex;
