@@ -39,6 +39,41 @@ body{
     
 }
 
+.sectionTwo{
+    margin-bottom: 125px;
+    
+}
+
+.sectionThree{
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    text-align: center;
+    
+    padding: 2em 2em;
+    justify-content: space-between;
+
+}
+
+.titleContainerThree{
+
+    display: flex;
+    margin: 0em 6em;
+    width: 35em;
+    justify-content: center;
+    
+}
+
+.quote{
+    margin-left: 30em;
+    font-weight: 900;
+}
+
+
 
  .title{
     font-size: 45px;
@@ -95,14 +130,14 @@ body{
 .squaredraw{
     justify-content: center;
     align-items: center;
-    height: 120px;
-    width: 120px;
+    height: 170px;
+    width: 170px;
     padding: 10px;
     border: 0;
-    border-top: 10px solid black;
-    border-left: 10px solid black;
-    border-bottom: 10px solid black;
-    border-right: 10px solid black;
+    border-top: 5px solid #3882F6;
+    border-left: 5px solid #3882F6;
+    border-bottom: 5px solid #3882F6;
+    border-right: 5px solid #3882F6;
     border-radius: 10%;
     
 }
