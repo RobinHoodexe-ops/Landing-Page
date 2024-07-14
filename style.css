@@ -44,35 +44,6 @@ body{
     
 }
 
-.sectionThree{
-    display: flex;
-    flex-direction: column;
-    background-color: #E5E7EB;
-    color: #1F2937;
-    font-size: 36px;
-    font-weight: lighter;
-    font-style: italic;
-    text-align: center;
-    
-    padding: 2em 2em;
-    justify-content: space-between;
-
-}
-
-.titleContainerThree{
-
-    display: flex;
-    margin: 0em 6em;
-    width: 35em;
-    justify-content: center;
-    
-}
-
-.quote{
-    margin-left: 30em;
-    font-weight: 900;
-}
-
 
 
  .title{
@@ -169,6 +140,89 @@ body{
     width: 195px;
 }
 
+.sectionThree{
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    text-align: center;
+    
+    padding: 2em 2em;
+    justify-content: space-between;
+
+}
+
+.titleContainerThree{
+
+    display: flex;
+    margin: 0em 6em;
+    width: 35em;
+    justify-content: center;
+    
+}
+
+.quote{
+    margin-left: 30em;
+    font-weight: 900;
+}
+
+
+.sectionFour{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 3em 3em;
+    padding: 3em 1em;
+}
+
+.box{
+
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    background-color: #3882F6;
+    border-radius: 2%;
+    width: 1000px;
+    height: 140px;
+    
+}
+
+.action{
+
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    padding-left: 120px;
+    margin: 0;
+}
+
+.signUp{
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    padding-left: 120px;
+}
+.signUpBtn{
+    margin: 0 8em;
+    color: white;
+    background-color: #3882F6;
+    border: 2px solid white;
+    padding: .5em 1em;
+    width: 10em;
+    border-radius: 12px;
+}
+
+
+
 footer{
     display: flex;
+    justify-content: center;
+    color: white;
+    margin: 10px 10px;
+    padding: 20px 20px;
+    background-color: #1F2937;
 }
